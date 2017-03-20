@@ -9,8 +9,7 @@
 ####     - PlotFunctions_CaseStudy1.R
 ####     - CaseStudy1PDF.Rmd
 ####     - R version:  SessionInfo.txt (for reference of libraries and R-version)
-
-### 2. The output files are also included in the repository can be downloaded and are below:
+### 2. The output files are also included in the repository can be downloaded and are listed below:
 ####     - Raw:      FEDSTATS_Country.csv
 ####     - Raw:      GDP_Country.csv
 ####     - Cleaned:  GDPFEDclean.csv

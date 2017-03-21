@@ -42,4 +42,4 @@
 ###   6. Finally the CaseStudy1PDF.Rmd file runs the main RMakefile_CaseStudy1.R and extracts code to generates this "CaseStudy1PDF.pdf"" report. This report uses code that that is extracted from the main RMakefile_CaseStudy1.R and then run.
 ####      - To use this Rmd file to create a PDF, the user has to install MikTex (the non-basic version).  The URL with instructions to install MikTex is [\textcolor{blue}{MikText Install website}](https://miktex.org/howto/install-miktex).
 
-###   7. As an md backup:  We also provide a CaseStudy1PDF.md file and plots in CaseStudy1PDF_files/figure-markdown_github.  Please note for PDF files the numbering in CaseStudy1PDF.md file appears differently than in the CaseStudy1PDF file.
+###   7. As an md backup:  We also provide a CaseStudy1PDF.md file and plots in CaseStudy1PDF_files/figure-markdown_github.  Please note for PDF files the numbering in CaseStudy1PDF.md file appears differently than in the CaseStudy1PDF.pdf file.

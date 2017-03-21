@@ -3,19 +3,21 @@
 ### This repository creates a report that examines data from the World Bank in 2012 by country on Gross Domestic Product (GDP) combined with country specific Federal Statistics.   
 
 # Running R Code
-### 1. To run this R-code, download the following files to your directory below.  Make sure that you install the packages and/or load the libraries that are detailed in the makefile:  GatherData_CaseStudy1 and SessionInfo.txt (see description below).
+### 1. To run this R-code, download the following files to your directory below.  
 ####     - RMakefile_CaseStudy1.R
 ####     - GatherData_CaseStudy1.R
 ####     - PlotFunctions_CaseStudy1.R
 ####     - CaseStudy1PDF.Rmd
 ####     - R version:  SessionInfo.txt (for reference of libraries and R-version)
-### 2. The output files are also included in the repository can be downloaded and are listed below:
+### 2. The output files are also included in the repository can be downloaded and are provide as reference for the client.
 ####     - Raw:      FEDSTATS_Country.csv
 ####     - Raw:      GDP_Country.csv
 ####     - Cleaned:  GDPFEDclean.csv
 ####     - PDF Report:  CaseStudy1PDF.pfd
-### 3.  Execute RMakefile_CaseStudy1.R in R studio to run all the R code.
-### 4.  Execute CaseStudy1PDF.Rmd to generate the PDF file in this repository (installation of MikTex is required as detailed above).
+####     - R version:  SessionInfo.txt (for reference of libraries and R-version)
+### 3.  Execute RMakefile_CaseStudy1.R in R studio to run all the R code. RMakefile_CaseStudy1.R to loads all the libraries, read the raw data, create the cleaned data and perform the analysis for this client study.  The csv files will be created in the same directory as the project that you created on your computer.  In addition, we save the R session information that provided the version of R and all the library and packages being utilized.  
+####     - The RMakefile_CaseStudy.R executes the makefile GatherData_CaseStudy1.R, which installs the packages and load the libraries.  A message indicating that the libraries loaded may appear after executing the R code.  If a failure occurs please check both the function "packagelibrary.check" in the makefile GatherData_CaseStudy1.R and SessionInfo.txt file in the GitHub directory referenced above.
+### 4.  Execute CaseStudy1PDF.Rmd to generate the PDF file in this repository (installation of MikTex is required as detailed in point 6 in the Repository Description below).
 
 # Repository Description
 ### Below is a listing of all the files in this repository:

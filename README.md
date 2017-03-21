@@ -18,7 +18,7 @@
 ####     - R version:  SessionInfo.txt (for reference of libraries and R-version)
 
 ### 3.  Execute RMakefile_CaseStudy1.R in R studio to run all the R code. RMakefile_CaseStudy1.R loads all the libraries, read the raw data, create the cleaned data and perform the analysis for this client study.  The csv files will be created in the same directory as the project that you created on your computer.  In addition, we save the R session information that provided the version of R and all the library and packages being utilized.  
-####     - The RMakefile_CaseStudy.R executes the makefile GatherData_CaseStudy1.R, which installs the packages and load the libraries.  A message indicating that the libraries loaded may appear after executing the R code.  If a failure occurs please check both the function "packagelibrary.check" in the makefile GatherData_CaseStudy1.R and SessionInfo.txt file in the GitHub directory referenced above.
+####     - The RMakefile_CaseStudy.R executes the makefile GatherData_CaseStudy1.R, which installs the packages and load the libraries.  A message indicating that the libraries loaded may appear after executing the R code.  If a failure occurs, please check both the function "packagelibrary.check" in the makefile GatherData_CaseStudy1.R and SessionInfo.txt file in the GitHub directory referenced above.
 
 ### 4.  Execute CaseStudy1PDF.Rmd to generate the PDF file in this repository (installation of MikTex is required as detailed in point 6 in the Repository Description below).
 
@@ -33,11 +33,11 @@
 
 ###   4. PlotFunctions_CaseStudy1.R:  This R Makefile loads plot functions to plot Figures 1 and 2 used in RMakefile_CaseStudy1.R and CaseStudy1PDF.Rmd.
 
-###   5.There are three data files created below:  two downloaded raw datsets downloaded from the World Bank URLs and one cleaned data set.   In addition, we provide a text file (SessionsInfo.txt) containing all the R session information including the current R version and all the libraries and packages being utilized. 
+###   5. There are three data files created below:  two downloaded raw datsets downloaded from the World Bank URLs and one cleaned data set.   In addition, we provide a text file (SessionsInfo.txt) containing all the R session information including the current R version and all the libraries and packages being utilized. 
 ####     - Raw:  FEDSTATS_Country.csv
 ####     - Raw:  GDP_Country.csv
 ####     - Cleaned:  GDPFEDclean.csv
 ####     - R version:  SessionInfo.txt
 
-###  6.  Finally the CaseStudy1PDF.Rmd file runs the main RMakefile_CaseStudy1.R and extracts code to generates this "CaseStudy1PDF.pdf"" report.   This report uses code that that is extracted from the main RMakefile_CaseStudy1.R and then run.
+###   6. Finally the CaseStudy1PDF.Rmd file runs the main RMakefile_CaseStudy1.R and extracts code to generates this "CaseStudy1PDF.pdf"" report. This report uses code that that is extracted from the main RMakefile_CaseStudy1.R and then run.
 ####      - To use this Rmd file to create a PDF, the user has to install MikTex (the non-basic version).  The URL with instructions to install MikTex is [\textcolor{blue}{MikText Install website}](https://miktex.org/howto/install-miktex).

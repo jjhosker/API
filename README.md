@@ -20,11 +20,11 @@
 ### 4.  Execute CaseStudy1PDF.Rmd to generate the PDF file in this repository (installation of MikTex is required as detailed in point 6 in the Repository Description below).
 
 # Repository Description
-### Below is a listing of all the files in this repository:
+### Below is a listing of all the files in this repository: [\textcolor{blue}{https://github.com/jjhosker/CaseStudy1}](https://github.com/jjhosker/CaseStudy1).  It contains the following important files:
 
-###   1.  README:  This file that  provides more information in detail of each of the files in the github directory. 
+###   1.  README:  This file provides information in detail of each of the files in the GitHub repository and instructions on how to run the R code for this analysis. 
   
-###   2.  RMakefile_CaseStudy1.R:  This is the main R makefile that takes the cleaned data and performs all the analysis required for this project and in this report. In cleaning the data, we read in the csv files and in some cases re-name variables and reset data types.  In addition, we remove NAs and blanks in the data.  Finally, we merges the data by the unique country code in both data sets and create and output one cleaned and merged dataset (GDPFEDclean).
+###   2.  RMakefile_CaseStudy1.R:  This is the main R makefile that takes the cleaned data and performs all the analysis required for this project and in this report. In cleaning the data, we read in the csv files and in some cases re-name variables and reset data types.  In addition, we remove NAs and blanks in the data.  Finally, we merge the data by the unique country code in both datasets and create and output one cleaned and merged dataset (GDPFEDclean).
   
 ###   3. GatherData_CaseStudy1.R:  This R makefile is called by RMakefile_CaseStudy1.R above.  First this R makefile provides commands to install all required R-libraries (commented out) and then loads the R-libraries.  Second, this R makefile downloads in the csv data files from  World Bank websites using URLs, reads the downloaded csv files, creates the raw data, and creates the cleaned data sets.   This makefile then saves the cleaned data set as a csv file.  In addition, this R makefile merges the GDP with the Federal Statistical data set into one data set.  Finally, this makefile saves the sessionInfo for the R version, libraries and packages used to a file called SessionInfo.txt.
 
